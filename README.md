@@ -1,16 +1,34 @@
-# qapp3
+# Projet d'Application Mobile
 
-A new Flutter project.
+## Description
 
-## Getting Started
+Ce projet consiste en une application mobile développée avec Flutter et Dart pour fournir des informations essentielles telles que les horaires de prière, l'orientation de la Qibla et une explication détaillée de chaque Aya du Quran.
+.
 
-This project is a starting point for a Flutter application.
+## Technologies Utilisées
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter
+- Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clônez ce dépôt sur votre machine locale.
+2. Assurez-vous d'avoir Flutter et Dart installés sur votre système.
+3. Exécutez la commande `flutter pub get` pour installer les dépendances.
+
+## Exécution
+
+1. Connectez votre appareil mobile ou lancez un émulateur.
+2. Utilisez la commande `flutter run` dans le répertoire du projet.
+
+## Vidéo de Démo
+
+
+https://github.com/Khal011/QuranApp/assets/109516734/75d260bd-23d2-428c-a3b1-8e8cb575c0b0
+
+
+
+
+## Contact
+
+Pour toute question ou suggestion, veuillez me contacter à mohamedkhalil.saad@ensi-uma.tn
