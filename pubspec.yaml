@@ -1,0 +1,67 @@
+name: qapp3
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+  avatar_glow: ^2.0.2
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+  shared_preferences: ^2.2.0
+  flutter_qiblah: ^2.2.0
+  geolocator: ^9.0.2
+  adhan_dart: ^1.0.8
+  adhan: ^2.0.0-nullsafety.2
+  intl: ^0.18.1
+  geocoding: ^2.1.0
+  dio: ^5.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  
+flutter_native_splash: 
+  background_image: images/background.png
+  image: images/splash.png
+
+flutter_launcher_icons:
+  #  image_path: "assets/images/icon-128x128.png"
+  image_path_android: "images/icon.png"
+  image_path_ios: "images/icon.png"
+  min_sdk_android: 21
+  android: true
+  ios: true
+
+flutter:
+  assets:
+    - images/svgs/
+    - images/
+    - assets/
+    - assets/datas/
+
+
+  uses-material-design: true
+
+  fonts:
+    - family: quran
+      fonts:
+        - asset: assets/HafsSmart_08.ttf
+    - family: me_quran
+      fonts:
+        - asset: assets/me_quran.ttf
